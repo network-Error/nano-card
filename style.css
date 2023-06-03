@@ -7,6 +7,8 @@
     color: #000000;
 }
 
+/* font-family: 'Syne', sans-serif; */
+
 h1,
 h2, 
 h3, 
@@ -69,6 +71,7 @@ a {
 
 .wallet__wrapper {
     display: flex;
+    height: 550px;
 }
 
 .wallet__text {
@@ -76,6 +79,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 630px;
+    height: 500px;
 }
 
 .text__header {
@@ -111,4 +115,157 @@ a {
     background-size: cover;
     width: 747px;
     height: 800px;
+}
+
+.wallet__sub-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, .56);
+}
+
+.secure__wrapper {
+    padding-top: 80px;
+    padding-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.secure__header {
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.secure__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 52px 21px;
+}
+
+.secure__item {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.secure__item-img_decentralized {
+    background-image: url('./assets/decentralized.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 114px;
+}
+
+.secure__item-img_covered {
+    background-image: url('./assets/covered.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 115px;
+}
+
+.secure__item-img_optimize {
+    background-image: url('./assets/optimize.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 114px;
+}
+
+.secure__item-heading {
+    font-size: 17px;
+    line-height: 31px;
+    letter-spacing: 1px;
+}
+
+.secure__item-sub-heading {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.multichain__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+
+.multichain__icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.multichain__icon {
+    width: 241px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.placeholder-img {
+    background-color: rgba(180, 185, 201, .08);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.ethereum {
+    background-image: url('./assets/ethereum.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 59px;
+    height: 59px;
+}
+
+.usd-coin {
+    background-image: url('./assets/usd-coin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 59px;
+    height: 59px;
+}
+
+.solana {
+    background-image: url('./assets/solana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 59px;
+    height: 59px;
+}
+
+.multichain__icon_text {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2A3030;
+}
+
+.multichain__text {
+    width: 320px;
+}
+
+.multichain__heading {
+    font-size: 37px;
+    line-height: 56px;
+    letter-spacing: 1px;
+}
+
+.multichain__sub-heading {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, .6);
 }
