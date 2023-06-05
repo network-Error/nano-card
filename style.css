@@ -349,3 +349,25 @@ a {
     color: rgba(0, 0, 0, .6);
     width: 331px;
 }
+
+.sing-up {
+    background-image: url('./assets/sing-up-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sing-up__wrapper {
+    padding: 114px 0 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}
+
+.sing-up__header {
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    width: 538px;
+    text-align: center;
+}
