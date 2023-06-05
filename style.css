@@ -195,6 +195,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 74px;
+    padding-bottom: 72px;
 }
 
 .multichain__icons {
@@ -268,4 +269,83 @@ a {
     font-size: 18px;
     line-height: 27px;
     color: rgba(0, 0, 0, .6);
+}
+
+.wallets__wrapper {
+    padding-top: 100px;
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallets__icons {
+    display: flex;
+    width: 328px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wallets__icon {
+    background-color: rgba(240, 240, 244, .42);
+    width: 96px;
+    height: 96px;
+}
+
+.wallets__icon_wallets1 {
+    background-image: url('./assets/wallets1.svg');
+    background-repeat: no-repeat;
+    background-size: 41px 37px;
+}
+
+.wallets__icon_wallets2 {
+    background-image: url('./assets/wallets2.svg');
+    background-repeat: no-repeat;
+    background-size: 37px 44px;
+}
+
+.wallets__icon_wallets3 {
+    background-image: url('./assets/wallets3.svg');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+.wallets__icon_wallets4 {
+    background-image: url('./assets/wallets4.svg');
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+}
+
+.wallets__icon_wallets5 {
+    background-image: url('./assets/wallets5.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+}
+
+.wallets__icon_wallets6 {
+    background-image: url('./assets/wallets6.svg');
+    background-repeat: no-repeat;
+    background-size: 59px 51px;
+}
+
+.wallets__icon_wallets1,
+.wallets__icon_wallets2,
+.wallets__icon_wallets3,
+.wallets__icon_wallets4,
+.wallets__icon_wallets5,
+.wallets__icon_wallets6 {
+    background-position: center;
+}
+
+.wallets__header {
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 1px;
+}
+
+.wallets__sub-header {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, .6);
+    width: 331px;
 }
