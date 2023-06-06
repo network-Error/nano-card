@@ -273,6 +273,7 @@ a {
 
 .wallets__wrapper {
     padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     gap: 128px;
     align-items: center;
@@ -370,4 +371,72 @@ a {
     letter-spacing: 1px;
     width: 538px;
     text-align: center;
+}
+
+.free {
+    overflow: hidden;
+}
+
+.free__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+    padding-bottom: 150px;
+    gap: 121px;
+}
+
+.free__header {
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    width: 373px;
+}
+
+.free__info {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    position: relative;
+    left: 58%;
+}
+
+.free__icon {
+    background-image: url('./assets/free-icon.png');
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 134px;
+    margin-bottom: 40px;
+}
+
+.free__info-header {
+    font-size: 28px;
+    line-height: 36px;
+    width: 100px;
+    margin-bottom: 22px;
+}
+
+.free__sub-header {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.free__footer {
+    background-image: url('./assets/free-bg.png');
+    background-repeat: no-repeat;
+    background-size: 1160px 300px;
+    position: relative;
+    height: 300px;
+}
+
+.free__footer-key {
+    position: absolute;
+    bottom: -32px;
+    left: 50px;
+}
+
+.free__footer-card {
+    position: absolute;
+    top: 46px;
+    left: 430px;
 }
